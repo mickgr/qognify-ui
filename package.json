@@ -6,13 +6,19 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@tippy.js/react": "^3.1.1",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "lodash": "^4.17.20",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-intl": "^5.8.4",
     "react-scripts": "3.4.3",
+    "react-tippy": "^1.4.0",
+    "styled-components": "^5.2.0",
+    "tippy.js": "^6.2.6",
     "typescript": "~3.7.2"
   },
   "scripts": {
@@ -47,6 +53,7 @@
     "@storybook/preset-create-react-app": "^3.1.4",
     "@storybook/react": "^6.0.25",
     "babel-loader": "^8.1.0",
-    "react-is": "^16.13.1"
+    "react-is": "^16.13.1",
+    "storybook-addon-intl": "^2.4.1"
   }
 }
