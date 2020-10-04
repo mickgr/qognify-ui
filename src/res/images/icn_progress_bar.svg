@@ -1,0 +1,36 @@
+<svg width="178" height="14" viewBox="0 0 178 14" xmlns="http://www.w3.org/2000/svg" fill="url('myGradient')">
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 3.3 ? styles.color.brand.PRIMARY : styles.color.shade.LIGHT04} transform="translate(0,0)" />
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 6.6 ? styles.color.brand.PRIMARY : styles.color.shade.LIGHT04} transform="translate(6,0)" />
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 10 ? styles.color.brand.PRIMARY : styles.color.shade.LIGHT04} transform="translate(12,0)" />
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 13.3 ? styles.color.brand.PRIMARY : styles.color.shade.LIGHT04} transform="translate(18,0)" />
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 16.6 ? styles.color.brand.PRIMARY : styles.color.shade.LIGHT04} transform="translate(24,0)" />
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 20 ? styles.color.brand.PRIMARY : styles.color.shade.LIGHT04} transform="translate(30,0)" />
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 23.3 ? styles.color.brand.PRIMARY : styles.color.shade.LIGHT04} transform="translate(36,0)" />
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 26.6 ? styles.color.brand.PRIMARY : styles.color.shade.LIGHT04} transform="translate(42,0)" />
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 30 ? styles.color.brand.PRIMARY : styles.color.shade.LIGHT04} transform="translate(48,0)" />
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 3.3 ? styles.color.brand.PRIMARY : styles.color.shade.LIGHT04} transform="translate(54,0)" />
+
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 36.6 ? styles.color.brand.PRIMARY : styles.color.shade.LIGHT04} transform="translate(60,0)" />
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 40 ? styles.color.brand.PRIMARY : styles.color.shade.LIGHT04} transform="translate(66,0)" />
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 43.3 ? styles.color.brand.PRIMARY : styles.color.shade.LIGHT04} transform="translate(72,0)" />
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 46.6 ? styles.color.brand.PRIMARY : styles.color.shade.LIGHT04} transform="translate(78,0)" />
+
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 50 ? '#46C085' : styles.color.shade.LIGHT04} transform="translate(84,0)"/>
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 53.3 ? '#83C046' : styles.color.shade.LIGHT04} transform="translate(90,0)"/>
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 56.6 ? '#C0B446' : styles.color.shade.LIGHT04} transform="translate(96,0)"/>
+
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 60 ? '#C05C46' : styles.color.shade.LIGHT04} transform="translate(102,0)"/>
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 63.3 ? '#C05446' : styles.color.shade.LIGHT04} transform="translate(108,0)"/>
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 66.6 ? '#C05446' : styles.color.shade.LIGHT04} transform="translate(114,0)"/>
+
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 70 ? '#FF3B6A' : styles.color.shade.LIGHT04} transform="translate(120,0)"/>
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 73.3 ? '#C0B446' : styles.color.shade.LIGHT04} transform="translate(126,0)"/>
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 76.6 ? '#C0B446' : styles.color.shade.LIGHT04} transform="translate(132,0)"/>
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 80 ? '#C0B446' : styles.color.shade.LIGHT04} transform="translate(138,0)"/>
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 83.3 ? '#C0B446' : styles.color.shade.LIGHT04} transform="translate(146,0)"/>
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 86.6 ? '#C0B446' : styles.color.shade.LIGHT04} transform="translate(152,0)"/>
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 90 ? '#C0B446' : styles.color.shade.LIGHT04} transform="translate(158,0)"/>
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 93.3 ? '#C0B446' : styles.color.shade.LIGHT04} transform="translate(164,0)"/>
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 96.6 ? '#C0B446' : styles.color.shade.LIGHT04} transform="translate(170,0)"/>
+        <rect width="4" height="14" rx="2" fill={props.percentage >= 100 ? '#C0B446' : styles.color.shade.LIGHT04} transform="translate(176,0)"/>
+</svg>
