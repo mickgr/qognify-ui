@@ -27,7 +27,7 @@ const options: DropdownItemModel[] = [
   },
 ];
 
-storiesOf("Dropdown Button/Variants", module).add("Default", () => (
+storiesOf("Form Elements/Dropdown Button", module).add("Default", () => (
   <DropdownButton
     onSelectionChanged={action("it should open now")}
     icon={<Icon d={Icon.res.ADD} />}

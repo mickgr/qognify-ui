@@ -7,7 +7,7 @@ import { Checkbox } from "components/FormElements";
 const selected = true;
 const semiSelected = true;
 
-storiesOf("Checkbox/Variants", module).add("Default", () => (
+storiesOf("Form Elements/Checkbox", module).add("Default", () => (
   <Checkbox
     selected={selected}
     semiSelected={semiSelected}

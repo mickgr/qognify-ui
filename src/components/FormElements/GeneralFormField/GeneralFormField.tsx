@@ -1,5 +1,5 @@
 import React from "react";
-import { FormattedMessage, useIntl } from "react-intl";
+import { FormattedMessage } from "react-intl";
 import { ValidationMessage } from "components/FormElements/ValidationMessage";
 import { Icon } from "components/common/Icon";
 import styles from "styles/values";
@@ -59,7 +59,6 @@ const GeneralFormField: React.FC<GeneralFormFieldProps> = (
     type = "text",
   } = props;
 
-  const intl = useIntl();
   let ContainerComponent;
   let FormFieldComponent;
   switch (fieldType) {
@@ -81,9 +80,7 @@ const GeneralFormField: React.FC<GeneralFormFieldProps> = (
   return (
     <StyledGeneralFormField id={`StyledGeneralFormField_${name}`}>
       <ContainerComponent medium={medium}>
-        <StyledGeneralFormLabelText>
-          {intl.formatMessage({ id: title })}
-        </StyledGeneralFormLabelText>
+        <StyledGeneralFormLabelText>{title}</StyledGeneralFormLabelText>
         <FormFieldComponent
           medium={medium}
           type={type}

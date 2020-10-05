@@ -1,5 +1,4 @@
 import React from "react";
-import { useIntl } from "react-intl";
 
 import {
   StyledIconInputButton,
@@ -32,8 +31,6 @@ const IconInputButton: React.FC<Props> = ({
   text,
   error = false,
 }: Props) => {
-  const intl = useIntl();
-
   return (
     <StyledIconInputButtonLabel error={error}>
       <StyledIconInputButton

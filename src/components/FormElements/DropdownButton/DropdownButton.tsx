@@ -13,7 +13,6 @@ import DropdownItem, {
   DropdownItemModel,
   DropdownItemOptionStateIndicator,
 } from "components/FormElements/DropdownButton/DropdownItem";
-import { useIntl } from "react-intl";
 import { useDropdownOpenToggle } from "components/common/hooks/useDropdownOpenToggle";
 import { ArrowIcon } from "components/common/Icon/Icon";
 
@@ -69,7 +68,6 @@ function DropdownButton<T extends DropdownItemModel>(
     isShowClearSelection = true,
   } = props;
 
-  const intl = useIntl();
   const [isOpen, setIsOpen, node] = useDropdownOpenToggle();
 
   const setNewSelection = useCallback(
@@ -183,7 +181,7 @@ function DropdownButton<T extends DropdownItemModel>(
               isClickable>
               {clearSelectionItemText
                 ? clearSelectionItemText
-                : intl.formatMessage({ id: "clear_selection" })}
+                : "Clear Selection"}
             </StyledDropdownItem>
           </>
         )}
