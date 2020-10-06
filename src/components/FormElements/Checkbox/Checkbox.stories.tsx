@@ -1,16 +1,32 @@
 import { action } from "@storybook/addon-actions";
-import { storiesOf } from "@storybook/react";
+import { Meta, storiesOf, Story } from "@storybook/react";
 import React from "react";
 
 import { Checkbox } from "components/FormElements";
+import { Props } from "./Checkbox";
 
-const selected = true;
-const semiSelected = true;
+export default {
+  title: "Form Elements/Checkbox",
+  component: Checkbox,
+} as Meta;
 
-storiesOf("Form Elements/Checkbox", module).add("Default", () => (
-  <Checkbox
-    selected={selected}
-    semiSelected={semiSelected}
-    onChange={action("check that checkbox")}
-  />
-));
+const Template: Story<Props> = (args) => <Checkbox {...args} />;
+
+export const Default = Template.bind({});
+Default.args = {};
+
+export const Selected = Template.bind({});
+Selected.args = {
+  selected: true,
+};
+
+export const SemiSelected = Template.bind({});
+SemiSelected.args = {
+  semiSelected: true,
+};
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+  selected: true,
+  disabled: true,
+};

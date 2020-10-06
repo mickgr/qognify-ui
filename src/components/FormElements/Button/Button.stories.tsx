@@ -8,9 +8,6 @@ export default {
   title: "Form Elements/Button",
   component: Button,
   args: {
-    onClick: (): void => {
-      alert("hey");
-    },
     text: "Button",
   },
 } as Meta;

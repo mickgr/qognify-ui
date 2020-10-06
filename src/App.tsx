@@ -1,4 +1,4 @@
-import { Button } from "components/FormElements";
+import { Button, Checkbox } from "components/FormElements";
 import React from "react";
 import "./App.css";
 
@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Button text="test"></Button>
+        <Checkbox selected={true}></Checkbox>
       </header>
     </div>
   );
