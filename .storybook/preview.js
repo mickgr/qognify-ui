@@ -1,4 +1,5 @@
 import React from "react";
+import "@storybook/addon-console";
 import GlobalStyles from "styles/globalStyles/globalStyles";
 
 export const parameters = {
