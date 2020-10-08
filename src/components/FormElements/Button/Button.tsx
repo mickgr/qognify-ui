@@ -15,7 +15,7 @@ const Button = ({
   disabled = false,
   id,
   onClick,
-  isPrimary,
+  isPrimary = true,
   width,
 }: Props): JSX.Element => (
   <StyledButton

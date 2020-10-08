@@ -15,17 +15,17 @@ export default {
 const Template: Story<Props> = (args) => <Button {...args} />;
 
 export const Default = Template.bind({});
-Default.args = {
-  isPrimary: true,
-};
+Default.args = {};
 export const Disabled = Template.bind({});
 Disabled.args = {
-  isPrimary: true,
   disabled: true,
 };
 export const Secondary = Template.bind({});
-Secondary.args = {};
+Secondary.args = {
+  isPrimary: false,
+};
 export const SecondaryDisabled = Template.bind({});
 SecondaryDisabled.args = {
+  isPrimary: false,
   disabled: true,
 };
