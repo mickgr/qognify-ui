@@ -1,7 +1,7 @@
-import logo from 'res/images/logo.png';
-import profile from 'res/images/profile.svg';
+import logo from "../../res/images/logo.png";
+import profile from "../../res/images/profile.svg";
 
 export default {
-    logo,
-    profile,
+  logo,
+  profile,
 };

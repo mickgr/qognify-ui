@@ -1,6 +1,5 @@
 import React from "react";
-
-import { FormField } from "components/FormElements";
+import { FormField } from "..";
 
 import { StyledInputBar, StyledInputTitle } from "./InputBarStyles";
 

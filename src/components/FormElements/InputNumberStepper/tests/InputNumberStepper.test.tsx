@@ -1,7 +1,7 @@
 import { shallow } from "enzyme";
 import React from "react";
 import "jest-styled-components";
-import { FormField } from "components/FormElements";
+import { FormField } from "..";
 
 import InputNumberStepper, { Props } from "../InputNumberStepper";
 import {

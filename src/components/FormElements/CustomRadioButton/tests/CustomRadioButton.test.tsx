@@ -1,16 +1,9 @@
 import { mount, shallow } from "enzyme";
 import React from "react";
-import { FormattedMessage } from "react-intl";
-import renderer from "react-test-renderer";
 import "jest-styled-components";
 
 import CustomRadioButton, { Props } from "../CustomRadioButton";
-import {
-  StyledCustomRadioButtonLabel,
-  StyledCustomRadioButton,
-} from "../CustomRadioButtonStyles";
-
-import styles from "styles/values";
+import styles from "../../../../styles/values";
 
 describe("Custom radio button test", () => {
   let props: Props;

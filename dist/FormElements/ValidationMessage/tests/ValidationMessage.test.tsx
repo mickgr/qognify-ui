@@ -1,9 +1,8 @@
 import { shallow } from "enzyme";
 import React from "react";
 
-import { ValidationMessage } from "components/FormElements";
-import { FormattedMessage } from "react-intl";
-import { Icon } from "components/common/Icon";
+import { ValidationMessage } from "..";
+import { Icon } from "../../..";
 import { Props } from "../ValidationMessage";
 
 describe("Validation message test", () => {
@@ -11,7 +10,7 @@ describe("Validation message test", () => {
   beforeEach(() => {
     props = {
       id: "234sdfas",
-      text: <FormattedMessage id={"loading"} />,
+      text: "loading",
       icon: <Icon d={Icon.res.DEVICE_AUDIO_IN} />,
     };
   });

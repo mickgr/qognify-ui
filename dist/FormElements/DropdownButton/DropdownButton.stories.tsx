@@ -1,13 +1,10 @@
 import { action } from "@storybook/addon-actions";
 import { storiesOf } from "@storybook/react";
+import { Icon } from "../..";
 import React from "react";
 
-import { DropdownButton } from "components/FormElements";
-import { Icon } from "components/common/Icon";
-import {
-  DropdownItemModel,
-  DropdownItemType,
-} from "components/FormElements/DropdownButton/DropdownItem";
+import { DropdownButton, DropdownItemType } from "..";
+import { DropdownItemModel } from "./DropdownItem";
 
 const options: DropdownItemModel[] = [
   {

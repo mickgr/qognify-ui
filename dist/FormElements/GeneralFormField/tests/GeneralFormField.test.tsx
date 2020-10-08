@@ -1,6 +1,5 @@
 import { shallow } from "enzyme";
 import React from "react";
-import { FormattedMessage } from "react-intl";
 import { FieldType, GeneralFormFieldProps } from "../GeneralFormField";
 import { GeneralFormField } from "../index";
 
@@ -80,7 +79,7 @@ describe("Test case for testing Cluster details form field", () => {
     expect((formFieldProps as any).error).toEqual(true);
     expect(wrapper.find("ValidationMessage").exists()).toBe(true);
     expect((wrapper.find("ValidationMessage").props() as any).text).toEqual(
-      <FormattedMessage id="error" />
+      "error"
     );
   });
 

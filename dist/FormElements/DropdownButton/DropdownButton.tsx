@@ -1,20 +1,18 @@
-import { action } from "@storybook/addon-actions";
 import React, { useCallback } from "react";
 import {
   StyledDropdownButtonWrapper,
-  StyledDropdownItems,
   StyledDropdownButtonTitle,
+  StyleMainIconContainer,
+  StyledDropdownItems,
   StyledDropdownDelimiter,
   StyledDropdownItem,
-  StyleMainIconContainer,
-} from "components/FormElements/DropdownButton/DropdownButtonStyles";
-import DropdownItem, {
-  DropdownItemType,
+} from "./DropdownButtonStyles";
+import { DropdownItem, DropdownItemType } from ".";
+import {
   DropdownItemModel,
   DropdownItemOptionStateIndicator,
-} from "components/FormElements/DropdownButton/DropdownItem";
-import { useDropdownOpenToggle } from "components/common/hooks/useDropdownOpenToggle";
-import { ArrowIcon } from "components/common/Icon/Icon";
+} from "./DropdownItem";
+import { ArrowIcon, useDropdownOpenToggle } from "../..";
 
 export enum SelectionMode {
   SingleSelect,
@@ -130,8 +128,6 @@ function DropdownButton<T extends DropdownItemModel>(
 
         setNewSelection(newSelectedIds, clickedDropdownItem);
       }
-
-      action(`Item ${clickedDropdownItem.text} clicked`);
     },
     [
       onMultiStateSingleSelectItemClicked,

@@ -1,5 +1,5 @@
-import { LongTextEllipsis } from 'styles/common/longTextEllipsis';
-import { ToolTipData } from 'styles/common/toolTip';
-import { ScrollableContainer } from 'styles/common/scrollableContainer';
+import { LongTextEllipsis } from "./longTextEllipsis";
+import { ToolTipData } from "./toolTip";
+import { ScrollableContainer } from "./scrollableContainer";
 
 export { LongTextEllipsis, ToolTipData, ScrollableContainer };

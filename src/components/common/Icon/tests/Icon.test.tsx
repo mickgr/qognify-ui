@@ -2,7 +2,7 @@ import { mount, shallow } from "enzyme";
 import React from "react";
 import "jest-styled-components";
 
-import styles from "styles/values";
+import styles from "../../../../styles/values";
 import { Icon } from "..";
 
 interface Props {

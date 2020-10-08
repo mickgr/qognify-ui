@@ -2,7 +2,7 @@ import { action } from "@storybook/addon-actions";
 import { Meta, storiesOf, Story } from "@storybook/react";
 import React from "react";
 
-import { Checkbox } from "components/FormElements";
+import { Checkbox } from "..";
 import { Props } from "./Checkbox";
 
 export default {

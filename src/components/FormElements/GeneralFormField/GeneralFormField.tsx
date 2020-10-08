@@ -1,20 +1,19 @@
 import React from "react";
-import { FormattedMessage } from "react-intl";
-import { ValidationMessage } from "components/FormElements/ValidationMessage";
-import { Icon } from "components/common/Icon";
-import styles from "styles/values";
+import styles from "../../../styles/values";
 import {
   StyledGeneralFormField,
   StyledGeneralFormLabel,
   StyledGeneralFormLabelTextarea,
   StyledGeneralFormLabelText,
 } from "./GeneralFormFieldStyles";
-import {
-  FormFieldTextarea,
-  FormField,
-  FormFieldDropdown,
-} from "components/FormElements";
 import { Option } from "../FormFieldDropdown/FormFieldDropdown";
+import {
+  FormField,
+  FormFieldTextarea,
+  ValidationMessage,
+  FormFieldDropdown,
+} from "..";
+import { Icon } from "../..";
 
 export enum FieldType {
   ROW,
@@ -100,7 +99,7 @@ const GeneralFormField: React.FC<GeneralFormFieldProps> = (
       {error && (
         <ValidationMessage
           id={`${name}Error`}
-          text={<FormattedMessage id={error} />}
+          text={error}
           icon={
             <Icon
               d={Icon.res.CIRCLE_ERROR}

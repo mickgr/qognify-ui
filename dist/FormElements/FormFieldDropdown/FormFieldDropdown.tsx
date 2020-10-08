@@ -1,6 +1,6 @@
 import React, { ChangeEvent, FocusEvent } from "react";
 
-import { Icon } from "components/common/Icon";
+import { Icon, useDropdownOpenToggle } from "../..";
 import styles from "styles/values";
 import {
   StyledFormDropdownList,
@@ -8,7 +8,6 @@ import {
   StyledFormFieldDropdown,
   StyledFormFieldDropdownWrapper,
 } from "./FormFieldDropdownStyles";
-import useDropdownOpenToggle from "components/common/hooks/useDropdownOpenToggle/useDropdownOpenToggle";
 
 export interface Option {
   id: string;

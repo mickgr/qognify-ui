@@ -1,19 +1,14 @@
 import { shallow, mount } from "enzyme";
 import React from "react";
-import { FormattedMessage } from "react-intl";
 import renderer from "react-test-renderer";
 import "jest-styled-components";
-import { Icon } from "components/common/Icon";
 
 import DropdownButton, { Props, SelectionMode } from "../DropdownButton";
-import {
-  StyledDropdownItem,
-  StyledDropdownItems,
-  StyledDropdownButtonTitle,
-} from "../DropdownButtonStyles";
+import { StyledDropdownItem } from "../DropdownButtonStyles";
 
-import styles from "styles/values";
+import styles from "../../../../styles/values";
 import { DropdownItemModel, DropdownItemType } from "../DropdownItem";
+import { Icon } from "../../..";
 
 describe("dropdown button tests", () => {
   let props: Props<DropdownItemModel>;

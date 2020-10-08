@@ -6,7 +6,7 @@ import {
   StyledCheckboxLabel,
 } from "./CheckboxStyles";
 
-import styles from "styles/values";
+import styles from "../../../styles/values";
 
 export interface Props {
   selected?: boolean;

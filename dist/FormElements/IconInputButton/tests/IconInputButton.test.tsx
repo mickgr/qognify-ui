@@ -6,7 +6,7 @@ import IconInputButton, { Props } from "../IconInputButton";
 import { StyledIconInputButton } from "../IconInputButtonStyles";
 
 import styles from "styles/values";
-import { Icon } from "components/common/Icon";
+import { Icon } from "../../..";
 
 describe("icon input button tests", () => {
   let props: Props;

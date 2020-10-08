@@ -1,12 +1,11 @@
 import React from "react";
-import { FormattedMessage } from "react-intl";
 
 import { storiesOf } from "@storybook/react";
 
-import { FormField, ValidationMessage } from "components/FormElements";
+import { FormField, ValidationMessage } from "..";
 
-import styles from "styles/values";
-import { Icon } from "components/common/Icon";
+import styles from "../../../styles/values";
+import { Icon } from "../..";
 
 storiesOf("Validation Message/Variants", module).add("Error", () => (
   <ValidationMessage.Wrapper>
@@ -21,7 +20,7 @@ storiesOf("Validation Message/Variants", module).add("Error", () => (
     />
     <ValidationMessage
       id="validationMessage"
-      text={<FormattedMessage id="mock_long_message" />}
+      text={"change!!!"}
       icon={
         <Icon
           d={Icon.res.CIRCLE_ERROR}

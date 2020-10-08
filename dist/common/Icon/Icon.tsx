@@ -1,13 +1,9 @@
 import React from "react";
-import iconsBank from "components/common/Icon/iconsBank";
 import styles from "styles/values";
-import {
-  Svg,
-  boxSizeType,
-  StyledArrowIcon,
-} from "components/common/Icon/iconStyles";
 import { ToolTipData } from "styles/common";
 import { Tooltip } from "react-tippy";
+import iconsBank from "./iconsBank";
+import { boxSizeType, StyledArrowIcon, Svg } from "./iconStyles";
 
 const Icon: IconType = ({
   d,

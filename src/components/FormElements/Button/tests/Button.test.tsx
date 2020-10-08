@@ -4,7 +4,7 @@ import React from "react";
 import renderer from "react-test-renderer";
 import "jest-styled-components";
 
-import styles from "styles/values";
+import styles from "../../../../styles/values";
 
 import Button, { Props } from "../Button";
 import { StyledButton } from "../ButtonStyles";

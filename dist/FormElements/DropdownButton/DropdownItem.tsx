@@ -1,14 +1,13 @@
 import React, { useCallback } from "react";
 
-import { Checkbox } from "components/FormElements";
-
 import {
   StyledDropdownItem,
   StyledDropdownitemsWithCheckbox,
   StyledDropdownItemText,
   StyledDropdownDelimiter,
   StyledDropdownItemContentContainer,
-} from "components/FormElements/DropdownButton/DropdownButtonStyles";
+} from "./DropdownButtonStyles";
+import { Checkbox } from "..";
 
 export enum DropdownItemType {
   Title,

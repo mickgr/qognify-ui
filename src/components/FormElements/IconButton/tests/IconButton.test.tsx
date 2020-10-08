@@ -6,8 +6,8 @@ import "jest-styled-components";
 import IconButton, { Props } from "../IconButton";
 import { StyledIconButton } from "../IconButtonStyles";
 
-import styles from "styles/values";
-import { Icon } from "components/common/Icon";
+import styles from "../../../../styles/values";
+import { Icon } from "../../..";
 
 describe("icon button tests", () => {
   let props: Props;

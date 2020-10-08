@@ -1,4 +1,4 @@
-import { Icon } from "components/common/Icon";
+import { Icon } from "../..";
 import React, { ChangeEvent, FocusEvent } from "react";
 
 import styles from "styles/values";

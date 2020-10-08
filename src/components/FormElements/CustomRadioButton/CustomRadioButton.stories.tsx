@@ -1,7 +1,7 @@
 import React from "react";
 import { Meta, Story } from "@storybook/react";
 
-import { CustomRadioButton } from "components/FormElements";
+import { CustomRadioButton } from "..";
 import { Props } from "./CustomRadioButton";
 
 export default {

@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
-import styles from "styles/values";
-import { LongTextEllipsis } from "styles/common";
+import styles from "../../../styles/values";
+import { LongTextEllipsis } from "../../../styles/common";
 
 const button = css`
   border-radius: ${styles.borderRadius.SECONDARY};

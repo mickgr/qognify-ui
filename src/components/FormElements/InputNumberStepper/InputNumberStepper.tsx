@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 
-import { FormField } from "components/FormElements";
+import { FormField } from "..";
 
-import styles from "styles/values";
+import styles from "../../../styles/values";
 
 import {
   StyledInputNumberStepper,
   StyledInputNumberStepperMinus,
   StyledInputNumberStepperPlus,
 } from "./InputNumberStepperStyles";
-import { Icon } from "components/common/Icon";
+import { Icon } from "../..";
 
 export interface Props {
   maxValue?: number;
