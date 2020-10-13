@@ -119,7 +119,9 @@ const StyledDropdownButtonWrapper = styled.div<{ disabled?: boolean }>`
   font-size: ${styles.typographyScale.TYPE16};
   text-transform: normal;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   padding: 5px;
   color: ${(props): string =>
     props.disabled ? styles.color.shade.DARK04 : styles.color.shade.DARK};
@@ -127,6 +129,7 @@ const StyledDropdownButtonWrapper = styled.div<{ disabled?: boolean }>`
   transition: ${styles.transition.PRIMARY};
   pointer-events: ${(props): string => (props.disabled ? "none" : "inherit")};
   z-index: 1;
+  width: fit-content;
 `;
 
 const StyledDropdownitemsWithCheckbox = styled.div`

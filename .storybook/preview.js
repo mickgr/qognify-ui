@@ -1,5 +1,5 @@
 import React from "react";
-import "@storybook/addon-console";
+// import "@storybook/addon-console"; - view console log on storybook
 import GlobalStyles from "../src/styles/globalStyles/globalStyles";
 
 export const parameters = {
@@ -10,7 +10,9 @@ export const decorators = [
   (Story) => (
     <div>
       <GlobalStyles />
-      <Story />
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <Story />
+      </div>
     </div>
   ),
 ];
