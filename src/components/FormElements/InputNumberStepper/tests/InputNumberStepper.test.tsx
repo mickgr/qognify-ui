@@ -1,13 +1,13 @@
 import { shallow } from "enzyme";
 import React from "react";
 import "jest-styled-components";
-import { FormField } from "..";
 
 import InputNumberStepper, { Props } from "../InputNumberStepper";
 import {
   StyledInputNumberStepperMinus,
   StyledInputNumberStepperPlus,
 } from "../InputNumberStepperStyles";
+import { FormField } from "../../FormField";
 
 describe("input number stepper tests", () => {
   let props: Props;
