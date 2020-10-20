@@ -37,7 +37,7 @@ import sensors from "../../res/images/icn_sensors.svg";
 import templates from "../../res/images/icn_templates.svg";
 import upload_file from "../../res/images/icn_upload.svg";
 import refresh from "../../res/images/icn_refresh.svg";
-import info from "../../res/images/ic_info.svg";
+import info from "../../res/images/icn_info.svg";
 
 export default {
   add_dark,
