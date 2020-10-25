@@ -10,9 +10,9 @@ export const decorators = [
   (Story) => (
     <div>
       <GlobalStyles />
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <Story />
-      </div>
+      {/* <div style={{ display: "flex", justifyContent: "center" }}> */}
+      <Story />
+      {/* </div> */}
     </div>
   ),
 ];
